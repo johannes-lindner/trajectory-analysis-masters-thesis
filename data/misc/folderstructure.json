@@ -1,0 +1,75 @@
+{
+  "scenarios": [
+    {"scenName": "1 - Hindernis - Seite Fahrrad",
+      "imagepath": "BackgroundImages/4k/scen1.png",
+      "imageextent": [-365, -565, 32.5, 57.5],
+      "additionalRect": [-470.2758, 45.59664, 8.3, 2.36665],
+      "invertXY": false,
+      "invertY": false,
+      "invertX": false,
+      "subscen": [
+        {"subscenName":  "Hind Seite Rad - AF - Vorfahrt Rad (lap 2)"},
+        {"subscenName":  "Hind Seite Rad - AFpass - free (lap 1 & lap 3)/D0 - Vorfahrt AF"},
+        {"subscenName":  "Hind Seite Rad - AFpass - free (lap 1 & lap 3)/D1 - Vorfahrt Rad"}
+    ]},
+    {"scenName": "2 - Eingeschr Sicht - ohne Rad-Infr",
+      "imagepath": "BackgroundImages/4k/scen2.png",
+      "imageextent": [-380, -180, 150, 350],
+      "invertXY": false,
+      "invertY": true,
+      "invertX": false,
+      "subscen": [
+        {"subscenName":  "SEK-M-AF-Vorfahrt AF (lap 3)"},
+        {"subscenName":  "SEK-M-AF-Vorfahrt Rad (lap 2)"},
+        {"subscenName":  "SEK-M-Kontroll (lap 1)"}
+    ]},
+    {"scenName": "3 - Linksabbiegen",
+      "imagepath": "BackgroundImages/4k/scen3.png",
+      "imageextent": [40, 240, 191, 391],
+      "invertXY": false,
+      "invertY": true,
+      "invertX": false,
+      "subscen": [
+        {"subscenName":  "L-AFpass-free (lap 2)/D0 - Vorfahrt AF"},
+        {"subscenName":  "L-AFpass-free (lap 2)/D1 - Vorfahrt Rad"},
+        {"subscenName":  "L-AFpass-free+info (lap 3)/D0 - Vorfahrt AF"},
+        {"subscenName":  "L-AFpass-free+info (lap 3)/D1 - Vorfahrt Rad"},
+        {"subscenName":  "L-Kontroll (lap 1)"}
+    ]},
+    {"scenName": "4 - Linksabbiegen",
+      "imagepath": "BackgroundImages/4k/scen4.png",
+      "imageextent": [-100, 100, 40, 240],
+      "invertXY": true,
+      "invertY": false,
+      "invertX": false,
+      "subscen": [
+        {"subscenName":  "L-AFpass-free (lap 3)/D0 - Vorfahrt AF"},
+        {"subscenName":  "L-AFpass-free (lap 3)/D1 - Vorfahrt Rad"},
+        {"subscenName":  "L-AFpass-free+info (lap 1)/D0 - Vorfahrt AF"},
+        {"subscenName":  "L-AFpass-free+info (lap 1)/D1 - Vorfahrt Rad"},
+        {"subscenName":  "L-AF-Vorfahrt Fahrrad (lap 2)"}
+    ]},
+    {"scenName": "5 - Hindernis - Seite AF",
+      "imagepath": "BackgroundImages/4k/scen5.png",
+      "imageextent": [-35, 165, -128.5, -103.5],
+      "invertXY": false,
+      "invertY": false,
+      "invertX": false,
+      "subscen": [
+        {"subscenName":  "Hind Seite AF - AF - Vorfahrt AF (lap 1)"},
+        {"subscenName":  "Hind Seite AF - AFpass - free (lap 2 & lap 3)/D0 - Vorfahrt AF"},
+        {"subscenName":  "Hind Seite AF - AFpass - free (lap 2 & lap 3)/D1 - Vorfahrt Rad"}
+    ]},
+    {"scenName": "6 - Eingeschr Sicht - mit Rad-Infr",
+      "imagepath": "BackgroundImages/4k/scen6.png",
+      "imageextent": [-250, -50, -445, -245],
+      "invertXY": true,
+      "invertY": false,
+      "invertX": false,
+      "subscen": [
+        {"subscenName":  "SEK Rad Inf - AF - Vorfahrt AF (lap 1)"},
+        {"subscenName":  "SEK Rad Inf - AF - Vorfahrt Rad (lap 3)"},
+        {"subscenName":  "SEK Rad Inf - Kontroll (lap 2)"}
+    ]}
+  ]
+}
